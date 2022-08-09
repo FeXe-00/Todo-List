@@ -1,0 +1,54 @@
+.LoadingTodo-container {
+    display: flex;
+    list-style: none;
+    padding: 25px;
+    font-size: 1.8rem;
+    border-top: 1px solid rgb(226, 223, 223);
+}
+
+div .LoadingTodo-text {
+    padding-left: 20px;
+    margin: 0 10px;
+    width: 100%;
+}
+
+div .LoadingTodo-deleteIcon {
+    font-size: 2.2rem;
+    cursor: pointer;
+    flex: 1 1 auto;
+}
+
+.LoadingTodo-container,
+.LoadingTodo-text,
+.LoadingTodo-completeIcon,
+.LoadingTodo-deleteIcon {
+    background: linear-gradient(90deg, rgba(250, 250, 250, 1), rgb(200, 199, 199));
+    background-size: 400% 400%;
+    animation: LoadingAnimation 1.5s ease-in-out infinite;
+}
+
+@keyframes LoadingAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media (max-width: 546px) {
+    .LoadingTodo-container {
+        display: flex;
+        position: absolute;
+        font-size: 1.4rem;
+        padding: 15px;
+        top: 8rem;
+        left: 15%;
+        
+    }
+}
+
+

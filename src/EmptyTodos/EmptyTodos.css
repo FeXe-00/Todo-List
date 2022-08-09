@@ -1,0 +1,21 @@
+
+
+.EmptyTodos {
+    position: absolute;
+    width: 50%;
+    top: 17%;
+    left: 26%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+}
+
+@media (max-width: 546px) {
+
+    div {
+        font-size: 1.4rem;
+        padding: 15px;
+        top: 8rem;
+        left: 15%;
+    }
+}
