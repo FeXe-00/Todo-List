@@ -1,5 +1,3 @@
-
-
 .EmptyTodos {
     position: absolute;
     width: 50%;
@@ -12,10 +10,10 @@
 
 @media (max-width: 546px) {
 
-    div {
+    .EmptyTodos {
+        position: absolute;
+        left: 28%;
         font-size: 1.4rem;
         padding: 15px;
-        top: 8rem;
-        left: 15%;
     }
 }

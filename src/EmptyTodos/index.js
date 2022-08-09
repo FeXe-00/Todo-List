@@ -3,9 +3,7 @@ import './EmptyTodos.css';
 
 function EmptyTodos() {
     return (
-        <div>
-            <p className="EmptyTodos">Crea tu primer TODO!</p>
-        </div>
+        <p className="EmptyTodos">No hay TODOs, crea uno!</p>
     )
 }
 

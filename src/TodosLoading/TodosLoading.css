@@ -41,13 +41,11 @@ div .LoadingTodo-deleteIcon {
 
 @media (max-width: 546px) {
     .LoadingTodo-container {
-        display: flex;
+
         position: absolute;
+        left: 30%;
         font-size: 1.4rem;
         padding: 15px;
-        top: 8rem;
-        left: 15%;
-        
     }
 }
 
